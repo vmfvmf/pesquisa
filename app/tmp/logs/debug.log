@@ -1,0 +1,218 @@
+2015-03-17 12:11:26 Notice: Notice (8): Undefined variable: autor in [/opt/lampp/htdocs/pesquisa/app/View/Livros/index.ctp, line 43]
+Trace:
+include - APP/View/Livros/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 12:11:26 Notice: Notice (8): Undefined variable: assuntos in [/opt/lampp/htdocs/pesquisa/app/View/Livros/index.ctp, line 59]
+Trace:
+include - APP/View/Livros/index.ctp, line 59
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 12:11:26 Notice: Notice (8): Undefined variable: titulos in [/opt/lampp/htdocs/pesquisa/app/View/Livros/index.ctp, line 68]
+Trace:
+include - APP/View/Livros/index.ctp, line 68
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 12:11:52 Notice: Notice (8): Undefined variable: autor in [/opt/lampp/htdocs/pesquisa/app/View/Livros/index.ctp, line 43]
+Trace:
+include - APP/View/Livros/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 12:11:52 Notice: Notice (8): Undefined variable: assuntos in [/opt/lampp/htdocs/pesquisa/app/View/Livros/index.ctp, line 59]
+Trace:
+include - APP/View/Livros/index.ctp, line 59
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:20:05 Notice: Notice (8): Undefined index: id in [/opt/lampp/htdocs/pesquisa/app/Controller/BibliotecasController.php, line 164]
+Trace:
+BibliotecasController::editobj() - APP/Controller/BibliotecasController.php, line 164
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 490
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:20:05 Notice: Notice (8): Undefined variable: data in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 71]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:20:05 Notice: Notice (8): Undefined variable: data in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 71]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 71
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:20:05 Notice: Notice (8): Undefined variable: data in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 76]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 76
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:25:31 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:25:31 Notice: Notice (8): Undefined variable: cats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 112]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 112
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:27:04 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:16 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:16 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:17 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:18 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:19 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:31:36 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/editobj.ctp, line 86]
+Trace:
+include - APP/View/Bibliotecas/editobj.ctp, line 86
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:36:00 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/viewobj.ctp, line 19]
+Trace:
+include - APP/View/Bibliotecas/viewobj.ctp, line 19
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+
+2015-03-17 15:36:01 Notice: Notice (8): Undefined variable: prats in [/opt/lampp/htdocs/pesquisa/app/View/Bibliotecas/viewobj.ctp, line 19]
+Trace:
+include - APP/View/Bibliotecas/viewobj.ctp, line 19
+View::_evaluate() - CORE/Cake/View/View.php, line 961
+View::_render() - CORE/Cake/View/View.php, line 923
+View::render() - CORE/Cake/View/View.php, line 473
+Controller::render() - CORE/Cake/Controller/Controller.php, line 960
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 167
+[main] - APP/webroot/index.php, line 118
+

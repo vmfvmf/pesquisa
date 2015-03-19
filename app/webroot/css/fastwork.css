@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/05/2014, 13:53:03
+    Author     : vi
+*/
+
+
+#fastwork {
+    font: 80% white;
+    background-color: #666666;
+    padding: 5px 20px 5px 20px;
+}
+
+#fastwork a{
+    text-decoration: none;
+}
+
+#obj-menu{
+    position:relative;
+    top:-10px;
+    height:40px;
+    width:600px;
+    background-color: black;
+    color: white;
+    border: #222 solid thin;
+    cursor: pointer;
+}
+
+
+#obj-menu li{
+    padding: 10px;
+    border-left: white solid thin;
+    border-bottom: white solid thin;
+    margin-right: 1px;
+}
+
+#obj-menu li ul li{
+    padding: 0px;
+}
+
+#canvas{
+    position:relative;
+    top:-28px;
+}
+#main_div_direita, #main_div_esquerda{
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+    top: -10px;
+}
+#main_div_direita{
+    float: right;
+    width: 59%;
+}
+
+#main_div_esquerda{
+    float: left;
+    width: 39%;
+}
