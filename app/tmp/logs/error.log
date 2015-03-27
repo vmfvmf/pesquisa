@@ -9081,3 +9081,78 @@ Request URL: /pesquisa/css/fancybox_sprite.png
 Stack Trace:
 #0 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-03-20 21:31:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /pesquisa/
+Stack Trace:
+#0 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(3644): Model->setSource('viewobjetos')
+#5 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/pesquisa/app/Controller/BibliotecasController.php(32): Model->find('all')
+#8 /opt/lampp/htdocs/pesquisa/app/Controller/BibliotecasController.php(15): BibliotecasController->getObjects()
+#9 [internal function]: BibliotecasController->index()
+#10 /opt/lampp/htdocs/pesquisa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(BibliotecasController), Array)
+#11 /opt/lampp/htdocs/pesquisa/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/pesquisa/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(BibliotecasController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-03-23 17:40:03 Error: [MissingTableException] Table programas for model Programa was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'programas',
+  'class' => 'Programa',
+  'ds' => 'default',
+)
+Request URL: /pesquisa/Livros/edit/14
+Stack Trace:
+#0 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(3644): Model->setSource('programas')
+#1 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Datasource/DboSource.php(2516): Model->schema()
+#3 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Datasource/DboSource.php(1741): DboSource->fields(Object(AppModel), 'Programa', '')
+#4 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Livro), Object(AppModel), 'belongsTo', 'Programa', Array, Array, false)
+#5 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(3022): DboSource->read(Object(Livro), Array)
+#6 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(2994): Model->_readDataSource('first', Array)
+#7 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Datasource/DboSource.php(599): Model->find('first', Array)
+#8 /opt/lampp/htdocs/pesquisa/lib/Cake/Model/Model.php(827): DboSource->query('findById', Array, Object(Livro))
+#9 /opt/lampp/htdocs/pesquisa/app/Controller/LivrosController.php(62): Model->__call('findById', Array)
+#10 /opt/lampp/htdocs/pesquisa/app/Controller/LivrosController.php(62): Livro->findById('14')
+#11 [internal function]: LivrosController->edit('14')
+#12 /opt/lampp/htdocs/pesquisa/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#13 /opt/lampp/htdocs/pesquisa/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/pesquisa/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest))
+#15 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-03-23 17:40:06 Error: [MissingControllerException] Controller class EmprestimosController could not be found.
+Exception Attributes: array (
+  'class' => 'EmprestimosController',
+  'plugin' => NULL,
+)
+Request URL: /pesquisa/Emprestimos/resultado/livro/14
+Stack Trace:
+#0 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 10:40:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pesquisa/css/fancybox_overlay.png
+Stack Trace:
+#0 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 10:40:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /pesquisa/css/fancybox_sprite.png
+Stack Trace:
+#0 /opt/lampp/htdocs/pesquisa/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -73,7 +73,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
+		'password' => '123',
 		'database' => 'biblioteca',
 		'prefix' => '',
 		'encoding' => 'utf8',
